@@ -38,4 +38,31 @@ table {
 * {
   box-sizing: border-box; }
 
+body {
+  background: #ffdfc9; }
+
+p {
+  height: 2000px; }
+
+.btn-top {
+  color: #ffffff;
+  padding: 0;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #aeaeae57;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  font-size: 35px;
+  font-weight: 700;
+  transition: color 200ms linear, background-color 200ms linear; }
+  .btn-top:hover {
+    border: 1px solid #9ff8e4;
+    color: #9ff8e4;
+    cursor: pointer;
+    background-color: #ffb3b3; }
+
 /*# sourceMappingURL=style.css.map */
